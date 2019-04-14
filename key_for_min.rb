@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
  if name_hash == {}
-end 	    return nil
+ 	    return nil
   else
   	min_value = Float::INFINITY
   	name_hash.each do |key, value|
